@@ -32,7 +32,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @EnableAutoConfiguration
 @Controller
 public class BaseController {
+/**
+ * @ComponentScan(basePackages = "com.itmayiedu")
+@MapperScan(basePackages = "com.itmayiedu.mapper")
+@SpringBootApplication
 
+ * @return
+ */
 	@RequestMapping("/index")
 	public String index() {
 		return "index";
