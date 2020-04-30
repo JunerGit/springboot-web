@@ -35,7 +35,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class BaseController {
 
-	@RequestMapping("/index")
+	//@RequestMapping("/index")
 	public String index() {
 		return "index";
 	}
@@ -45,7 +45,7 @@ public class BaseController {
 	 * <p>由于404请求，在templates目录中不存在，因此，会转入 public/error 目录中的404</p>
 	 * @return
 	 */
-	@RequestMapping("/404")
+	//@RequestMapping("/404")
 	public String notFound404() {
 		return "404";
 	}
@@ -55,7 +55,7 @@ public class BaseController {
 	 * <p></p>
 	 * @return
 	 */
-	@RequestMapping("/500")
+	//@RequestMapping("/500")
 	public String serverError500() {
 		return "500";
 	}
@@ -65,7 +65,7 @@ public class BaseController {
 	 * @param map
 	 * @return
 	 */
-	@RequestMapping("/templates/ftl")
+	//@RequestMapping("/templates/ftl")
 	public String index(Map<String, Object>map) {
 		map.put("name","美丽的天使...");
 		Out.out(map);
