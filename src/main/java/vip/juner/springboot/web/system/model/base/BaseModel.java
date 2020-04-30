@@ -1,4 +1,4 @@
-package vip.juner.springboot.web.system.model;
+package vip.juner.springboot.web.system.model.base;
 
 /**
  * 

@@ -1,4 +1,4 @@
-package vip.juner.springboot.web.system.service;
+package vip.juner.springboot.web.system.service.base;
 
 /**
  * <p>&nbsp;&nbsp;<b>顶级</b> Service</p>
