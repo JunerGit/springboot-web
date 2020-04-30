@@ -1,13 +1,14 @@
 package vip.juner.springboot.web.system.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.annotation.Resource;
+
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import vip.juner.springboot.web.system.controller.base.Out;
-import vip.juner.springboot.web.system.mapper.JDBCMapper;
 import vip.juner.springboot.web.system.model.JDBC;
 import vip.juner.springboot.web.system.service.IJDBCService;
 
@@ -15,16 +16,16 @@ import vip.juner.springboot.web.system.service.IJDBCService;
 @Controller
 public class TestController {
 
-	@Autowired
+	//@Autowired
+	//IJDBCService ;
+	
+	@Resource(name="jdbcService")
 	IJDBCService jdbcService;
 	
-	@Autowired
-	JDBCMapper jdbcMapper;
-	
 	@ResponseBody
-	@RequestMapping("/index")
-	public String index(String name) {
-		JDBC jdbc = jdbcMapper.findByName(name);
+	@RequestMapping("/index/{name}")
+	public String index(@PathVariable String name) {
+		JDBC jdbc = jdbcService.findByName(name);
 		Out.out(jdbc.toString());
 		return"success";
 	}
