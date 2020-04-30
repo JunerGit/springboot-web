@@ -76,9 +76,6 @@
 			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
 
-<<<<<<< Updated upstream
-				
-=======
 7、JSP
 
 		引入JSP依赖
@@ -116,5 +113,3 @@
 			spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 				
 9、
-
->>>>>>> Stashed changes
