@@ -1,0 +1,70 @@
+
+
+1、在文件 pom.xml 中加入编码问题和版本声明
+	// 2020-4-30 08:49:35
+	  <properties>
+	    <java.version>1.8</java.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+	  </properties>
+	  
+	  说明： 指定jdk版本号，执行源码、编译时、生成时编码问题
+	  
+2、在文件 pom.xml 中 SpringBoot 依赖管理
+
+		<parent>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-parent</artifactId>
+			<version>2.2.6.RELEASE</version>
+		</parent>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+	  说明： 
+	  		spring-boot-starter-parent SpringBoot依赖管理
+	  		spring-boot-starter-web SpringBootWeb核心作用
+	  		
+3、在文件 pom.xml 中加入 SpringBoot  插件依赖启动
+
+		<build>
+			<finalName>api</finalName>
+		    <plugins>
+		        <plugin>
+		            <groupId>org.springframework.boot</groupId>
+		            <artifactId>spring-boot-maven-plugin</artifactId>
+		        </plugin>
+		    </plugins>
+		</build>
+		
+	说明：
+			finalName中内容表示jar/war包的名称，如果打包成jar包或者war包，自动以其内容为名
+			spring-boot-maven-plugin 如果需要在main方法中启动Spring，必须加入插件，否则无法启动
+			
+4、方式一：
+
+		@org.springframework.web.bind.annotation.RestController
+		@org.springframework.boot.autoconfigure.EnableAutoConfiguration
+		public class Application {
+		
+			public static void main(String[] args) {
+				org.springframework.boot.SpringApplication.run(Application.class,args);
+			}
+			
+			@org.springframework.web.bind.annotation.RequestMapping("/hello")
+			public String index() {
+				return"Hello World";
+			}
+		}
+		
+5、
+		@RestController
+			表示修饰该Controller所有的方法返回JSON格式,直接可以编写Restful接口
+			
+		@EnableAutoConfiguration
+			 Spring Boot 根据应用所声明的依赖来对 Spring 框架进行自动配置
+				
