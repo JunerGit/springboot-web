@@ -76,4 +76,40 @@
 			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
 
+7、JSP
+
+		引入JSP依赖
+			<dependency>
+				<groupId>org.apache.tomcat.embed</groupId>
+				<artifactId>tomcat-embed-jasper</artifactId>
+			</dependency>
+
+		application.properties
+			spring.mvc.view.prefix=/WEB-INF/jsp/
+			spring.mvc.view.suffix=.jsp
+
+8、数据库访问
+
+		引入 JDBC 依赖
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-jdbc</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>mysql</groupId>
+				<artifactId>mysql-connector-java</artifactId>
+				<version>5.1.21</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-test</artifactId>
+				<scope>test</scope>
+			</dependency>
+			
+		application.properties
+			spring.datasource.url=jdbc:mysql://localhost:3306/test
+			spring.datasource.username=root
+			spring.datasource.password=root
+			spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 				
+9、

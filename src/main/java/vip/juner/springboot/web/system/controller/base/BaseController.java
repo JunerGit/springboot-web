@@ -1,5 +1,7 @@
 package vip.juner.springboot.web.system.controller.base;
 
+import java.util.Map;
+
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -57,4 +59,17 @@ public class BaseController {
 	public String serverError500() {
 		return "500";
 	}
+	
+	/**
+	 * <p><b>不会使用。使用 ftl 模版</b></p>
+	 * @param map
+	 * @return
+	 */
+	@RequestMapping("/templates/ftl")
+	public String index(Map<String, Object>map) {
+		map.put("name","美丽的天使...");
+		Out.out(map);
+		return"index";
+	}
+
 }
