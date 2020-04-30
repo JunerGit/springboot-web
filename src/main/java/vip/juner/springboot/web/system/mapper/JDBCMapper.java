@@ -1,5 +1,9 @@
 package vip.juner.springboot.web.system.mapper;
 
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
 import vip.juner.springboot.web.system.model.JDBC;
 
 public interface JDBCMapper {
