@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: springboot-web
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: Administrator
+Built-By: Yue16
 Implementation-Vendor-Id: vip.juner.springboot
 Build-Jdk: 1.8.0_181
 Implementation-URL: http://maven.apache.org

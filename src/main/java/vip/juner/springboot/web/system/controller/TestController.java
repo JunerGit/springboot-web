@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import vip.juner.springboot.web.system.controller.base.Out;
-import vip.juner.springboot.web.system.model.JDBC;
-import vip.juner.springboot.web.system.service.IJDBCService;
+import vip.juner.springboot.web.system.model.Users;
+import vip.juner.springboot.web.system.service.IUsersService;
 
 @EnableAutoConfiguration
 @Controller
@@ -19,13 +19,26 @@ public class TestController {
 	//@Autowired
 	//IJDBCService ;
 	
-	@Resource(name="jdbcService")
-	IJDBCService jdbcService;
+	@Resource
+	IUsersService userService;
+	
+	@ResponseBody
+	@RequestMapping("/")
+	public String i() {
+		return userService.findByName("juner").toString();
+	}
+	
+	@ResponseBody
+	@RequestMapping("/index")
+	public String index() {
+		return"Please Enter String for User'Name!";
+	}
 	
 	@ResponseBody
 	@RequestMapping("/index/{name}")
 	public String index(@PathVariable String name) {
-		JDBC jdbc = jdbcService.findByName(name);
+		Out.out(name);
+		Users jdbc = userService.findByName(name);
 		Out.out(jdbc.toString());
 		return"success";
 	}

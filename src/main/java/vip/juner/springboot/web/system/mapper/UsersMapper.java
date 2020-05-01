@@ -1,20 +1,22 @@
 package vip.juner.springboot.web.system.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-//import org.apache.ibatis.annotations.Param;
-//import org.apache.ibatis.annotations.Select;
-//import org.apache.ibatis.annotations.Insert;
 
-import vip.juner.springboot.web.system.model.JDBC;
+import vip.juner.springboot.web.system.model.Users;
 
 @Mapper
-public interface JDBCMapper {
-	
-//	@Select("SELECT * FROM USERS WHERE NAME = #{name}")
-//	JDBC findByName(@Param("name") String name);
-//	
-//	@Insert("INSERT INTO USERS(NAME, AGE) VALUES(#{name}, #{age})")
-//	int insert(@Param("name") String name, @Param("age") Integer age);
+public interface UsersMapper {
+    int deleteByPrimaryKey(Integer id);
 
-	JDBC findByName(String name);
+    int insert(Users record);
+
+    int insertSelective(Users record);
+
+    Users selectByPrimaryKey(Integer id);
+
+    int updateByPrimaryKeySelective(Users record);
+
+    int updateByPrimaryKey(Users record);
+    
+    Users findByUser(String name);
 }

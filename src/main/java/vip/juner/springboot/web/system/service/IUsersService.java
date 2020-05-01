@@ -1,11 +1,11 @@
 package vip.juner.springboot.web.system.service;
 
-import vip.juner.springboot.web.system.model.JDBC;
+import vip.juner.springboot.web.system.model.Users;
 
-public interface IJDBCService {
+public interface IUsersService {
 
-	JDBC findByName(String name);
+	Users findByName(String name);
 	
-	int insert(String name, Integer age);
+//	int insert(String name, Integer age);
 	
 }
