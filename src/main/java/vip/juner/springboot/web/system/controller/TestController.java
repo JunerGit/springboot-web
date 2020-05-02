@@ -1,5 +1,7 @@
 package vip.juner.springboot.web.system.controller;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -25,7 +27,7 @@ public class TestController {
 	@ResponseBody
 	@RequestMapping("/")
 	public String i() {
-		return userService.findByName("juner").toString();
+		return userService.findByUser("juner").toString();
 	}
 	
 	@ResponseBody
@@ -38,9 +40,9 @@ public class TestController {
 	@RequestMapping("/index/{name}")
 	public String index(@PathVariable String name) {
 		Out.out(name);
-		Users jdbc = userService.findByName(name);
-		Out.out(jdbc.toString());
-		return"success";
+		List<Users> result = userService.findByUser(name);
+		Out.out(result.toString());
+		return "success";
 	}
 
 }

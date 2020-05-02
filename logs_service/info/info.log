@@ -469,3 +469,201 @@
 2020-05-01 20:33:37.677 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-05-01 20:33:37.678 [http-nio-8080-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2020-05-01 20:33:37.688 [http-nio-8080-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-05-01 20:39:28.905 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:39:29.515 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:39:29.516 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:39:30.203 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:39:30.203 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:39:30.204 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:39:30.204 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:39:30.300 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:39:30.301 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:39:30.302 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 780 ms
+2020-05-01 20:39:30.429 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:39:30.539 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:39:30.553 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:39:30.559 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:39:30.559 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 1.142 seconds (JVM running for 417.518)
+2020-05-01 20:39:30.561 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:39:37.080 [Thread-18] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:39:37.763 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:39:37.765 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:39:38.805 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:39:38.807 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:39:38.807 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:39:38.808 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:39:38.972 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:39:38.973 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:39:38.979 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1142 ms
+2020-05-01 20:39:39.184 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:39:39.277 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:39:39.287 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:39:39.293 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:39:39.294 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 1.696 seconds (JVM running for 426.252)
+2020-05-01 20:39:39.296 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:39:41.773 [Thread-25] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:39:42.484 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:39:42.485 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:39:42.957 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:39:42.957 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:39:42.958 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:39:42.958 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:39:43.022 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:39:43.023 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:39:43.023 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 535 ms
+2020-05-01 20:39:43.126 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:39:43.194 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:39:43.202 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:39:43.208 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:39:43.209 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.855 seconds (JVM running for 430.166)
+2020-05-01 20:39:43.210 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:39:56.763 [Thread-32] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:39:57.223 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:39:57.224 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:39:57.857 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:39:57.858 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:39:57.859 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:39:57.859 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:39:57.938 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:39:57.939 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:39:57.940 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 713 ms
+2020-05-01 20:39:58.046 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:39:58.115 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:39:58.122 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:39:58.129 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:39:58.129 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.951 seconds (JVM running for 445.087)
+2020-05-01 20:39:58.132 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:40:07.845 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 20:40:07.846 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 20:40:07.849 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2020-05-01 20:43:19.857 [Thread-39] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:43:20.572 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:43:20.573 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:43:21.024 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:43:21.025 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:43:21.026 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:43:21.026 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:43:21.089 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:43:21.090 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:43:21.090 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 514 ms
+2020-05-01 20:43:21.176 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:43:21.256 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:43:21.265 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:43:21.270 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:43:21.270 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.742 seconds (JVM running for 648.228)
+2020-05-01 20:43:21.272 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:43:27.734 [Thread-46] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:43:28.215 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:43:28.215 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:43:28.622 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:43:28.624 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:43:28.624 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:43:28.624 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:43:28.690 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:43:28.691 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:43:28.691 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 472 ms
+2020-05-01 20:43:28.784 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:43:28.860 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:43:28.868 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:43:28.874 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:43:28.876 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.716 seconds (JVM running for 655.834)
+2020-05-01 20:43:28.878 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:43:50.537 [Thread-53] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:43:51.079 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:43:51.080 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:43:51.482 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:43:51.483 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:43:51.483 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:43:51.483 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:43:51.523 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:43:51.523 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:43:51.524 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 440 ms
+2020-05-01 20:43:51.603 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:43:51.676 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:43:51.682 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:43:51.688 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:43:51.688 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.656 seconds (JVM running for 678.646)
+2020-05-01 20:43:51.689 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:45:30.143 [Thread-60] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:45:30.616 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:45:30.617 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:45:31.207 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:45:31.208 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:45:31.208 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:45:31.209 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:45:31.268 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:45:31.269 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:45:31.269 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 649 ms
+2020-05-01 20:45:31.364 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:45:31.483 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:45:31.508 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:45:31.519 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:45:31.520 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.951 seconds (JVM running for 778.477)
+2020-05-01 20:45:31.522 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:45:45.062 [Thread-67] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:45:45.620 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:45:45.621 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:45:46.008 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:45:46.009 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:45:46.010 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:45:46.011 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:45:46.065 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:45:46.066 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:45:46.067 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 444 ms
+2020-05-01 20:45:46.187 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:45:46.253 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:45:46.263 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:45:46.273 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:45:46.274 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.697 seconds (JVM running for 793.232)
+2020-05-01 20:45:46.275 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:45:49.703 [Thread-74] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:45:50.168 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:45:50.169 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:45:50.572 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:45:50.573 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:45:50.573 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:45:50.573 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:45:50.624 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:45:50.625 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:45:50.625 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 453 ms
+2020-05-01 20:45:50.723 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:45:50.797 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:45:50.806 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:45:50.812 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:45:50.812 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.692 seconds (JVM running for 797.77)
+2020-05-01 20:45:50.813 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:45:55.267 [Thread-81] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:45:55.771 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:45:55.771 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:45:56.133 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:45:56.155 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:45:56.155 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:45:56.155 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:45:56.197 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:45:56.198 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:45:56.198 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 424 ms
+2020-05-01 20:45:56.291 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:45:56.352 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:45:56.361 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:45:56.366 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:45:56.367 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.639 seconds (JVM running for 803.325)
+2020-05-01 20:45:56.368 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-05-01 20:46:06.008 [http-nio-8080-exec-9] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 20:46:06.010 [http-nio-8080-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 20:46:06.012 [http-nio-8080-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-05-01 20:46:22.045 [Thread-88] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:46:22.515 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Starting Application on June10Pro with PID 9352 (C:\Users\Yue16\Desktop\springboot-web\target\classes started by Yue16 in C:\Users\Yue16\Desktop\springboot-web)
+2020-05-01 20:46:22.515 [restartedMain] INFO  v.j.springboot.web.system.application.Application - No active profile set, falling back to default profiles: default
+2020-05-01 20:46:22.871 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 20:46:22.872 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:46:22.872 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 20:46:22.872 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 20:46:22.919 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-05-01 20:46:22.919 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 20:46:22.919 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 401 ms
+2020-05-01 20:46:23.007 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 20:46:23.082 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-01 20:46:23.088 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-05-01 20:46:23.092 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 20:46:23.093 [restartedMain] INFO  v.j.springboot.web.system.application.Application - Started Application in 0.621 seconds (JVM running for 830.05)
+2020-05-01 20:46:23.094 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged

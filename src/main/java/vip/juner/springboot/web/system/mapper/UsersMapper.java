@@ -1,5 +1,7 @@
 package vip.juner.springboot.web.system.mapper;
 
+import java.util.List;
+
 import org.apache.ibatis.annotations.Mapper;
 
 import vip.juner.springboot.web.system.model.Users;
@@ -18,5 +20,5 @@ public interface UsersMapper {
 
     int updateByPrimaryKey(Users record);
     
-    Users findByUser(String name);
+    List<Users> findByUser(String name);
 }

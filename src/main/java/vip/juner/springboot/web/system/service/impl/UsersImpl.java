@@ -20,7 +20,7 @@ public class UsersImpl implements IUsersService  {
 		private UsersMapper jdbcMapper;
 		
 		@Override
-		public Users findByName(String name) {
+		public List<Users> findByUser(String name) {
 			//List<JDBC> list = jdbcTemplate.query("select uid, name, age from users where name = (?);", name);
 			return jdbcMapper.findByUser(name);
 		}
